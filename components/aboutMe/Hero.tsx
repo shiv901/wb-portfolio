@@ -5,7 +5,7 @@ export default function Hero() {
     <>
       <section
         id="hero"
-        className="grid h-[75dvh] grid-cols-2 place-content-center"
+        className="grid min-h-[75dvh] grid-cols-2 place-content-center"
       >
         <div id="image" className="ml-auto px-12">
           <Image

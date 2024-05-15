@@ -4,7 +4,7 @@ import "./globals.css";
 import CardLayout from "@/components/CardLayout";
 import ThemeProvider from "@/components/theme/themeProvider";
 import Footer from "@/components/footer/Footer";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/navbar/Navbar";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
