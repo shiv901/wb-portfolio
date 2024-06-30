@@ -26,11 +26,15 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  .text-sm {
+    font-size: 13px;
+  }
 }
 
 @layer components {
   .header {
-    @apply relative py-12 text-5xl font-medium shadow-sm after:absolute after:-right-2 after:top-2 after:opacity-20 after:content-['4+_years_of_experience'];
+    @apply relative mb-12 py-12 text-5xl font-medium shadow-md after:absolute after:-right-0 after:top-2 after:opacity-20 after:content-['4+_years_of_experience'];
+    clip-path: inset(-5px 0px -5px 0px);
   }
 
   .primary-btn {
@@ -50,7 +54,7 @@ body {
   }
 
   .underlined-heading {
-    @apply relative w-fit border-b-[3px] border-neutral-300 text-[22px] font-medium after:absolute after:bottom-[-2px] after:left-0 after:z-10 after:h-[2px] after:w-6 after:bg-[--bg-primary] dark:border-neutral-700;
+    @apply relative mb-4 mt-8 w-fit border-b-[3px] border-neutral-300 text-[22px] font-medium after:absolute after:bottom-[-2px] after:left-0 after:z-10 after:h-[2px] after:w-6 after:bg-[--bg-primary] dark:border-neutral-700;
   }
 }
 

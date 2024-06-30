@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -9,7 +10,7 @@ export default function Hero() {
       >
         <div id="image" className="ml-auto px-12">
           <Image
-            src="/images/face.jpg"
+            src="/images/face2.jpg"
             width={200}
             height={200}
             alt="my-photo"
@@ -28,8 +29,12 @@ export default function Hero() {
             problem-solving.
           </p>
           <div className="action-buttons mt-6">
-            <button className="primary-btn mr-4">Download CV</button>
-            <button className="secondary-btn">Contact</button>
+            <Link href="pdf\Shivansh_CV.pdf" className="primary-btn mr-4">
+              Download CV
+            </Link>
+            <Link href="/contact" className="secondary-btn">
+              Contact
+            </Link>
           </div>
         </div>
       </section>
