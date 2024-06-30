@@ -1,4 +1,7 @@
 "use client";
+
+import Link from "next/link";
+
 export default function Experience() {
   return (
     <div className="grid grid-cols-4">
@@ -97,6 +100,7 @@ export default function Experience() {
             </h1>
           </div>
         </div>
+
         <div className="experience my-4 flex items-start gap-4">
           <span className="dates primary-btn text-nowrap px-4 py-1 text-sm">
             2009-2011
